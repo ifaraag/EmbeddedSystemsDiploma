@@ -1,5 +1,12 @@
 *
 # ignore .exe files
 *.exe
-# Ignore a file without extension
-relative/path/to/dir/anotherfile
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
